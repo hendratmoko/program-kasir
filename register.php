@@ -1,7 +1,7 @@
 <?php
 session_start();
 include "koneksi.php"; // Menghubungkan ke database
-
+// 182720240803 moko
 if (isset($_POST['register'])) { // Cek apakah tombol daftar diklik
     $nama = $_POST['username']; // Ambil username dari form
     $pass = $_POST['password']; // Ambil password dari form
